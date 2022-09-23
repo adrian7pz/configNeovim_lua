@@ -5,6 +5,7 @@ cd Windows
 del init.lua
 del git_sync.cmd
 rmdir /s /q lua\
+rmdir /s /q msdos_commands\commands\
 
 copy C:\Users\pzeadrian\AppData\Local\nvim\init.lua C:\Users\pzeadrian\Documents\configNeovim_lua\Windows\
 copy C:\Users\pzeadrian\AppData\Local\nvim\git_sync.cmd C:\Users\pzeadrian\Documents\configNeovim_lua\Windows\
