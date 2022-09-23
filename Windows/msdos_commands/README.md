@@ -1,0 +1,2 @@
+- So, as you cannot install exa in Windows, I have included some interesting things here, for make easier the management of folders.
+- You have to copy these two folders into ay location yu want and then, add both to system Path in environment variables
