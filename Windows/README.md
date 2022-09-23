@@ -2,3 +2,5 @@
 ```
 mkdir C:\Users\(your_user)\AppData\Local\nvim
 ```
+
+- Now, install [Vim-Plug](https://github.com/junegunn/vim-plug) for Windows Powershell with Neovim
