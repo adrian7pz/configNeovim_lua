@@ -15,8 +15,8 @@ keymap ('n', '<M-l>', ':vertical resize +2<CR>', {noremap = true})
 -- Alternative way to save changes
 keymap ('n', '<C-s>', ':w<CR>', {noremap = true})
 
--- Alternative way to save and quit
-keymap ('n', '<C-q>', ':wq!<CR>', {noremap = true})
+-- Alternative way to quit without saving
+keymap ('n', '<C-q>', ':q!<CR>', {noremap = true})
 
 -- Close current buffer
 keymap ('n', '<C-b>', ':bd<CR>', {noremap = true})
@@ -30,10 +30,10 @@ keymap ('x', 'K', ":move '<-2<CR>gv-gv", {noremap = true}) -- shift + k to move 
 keymap ('x', 'J', ":move '>+1<CR>gv-gv", {noremap = true}) -- shift + j to move down
 
 -- Better window navigation
-keymap ('n', '<C-h>', '<C-w>h', {noremap = true})
-keymap ('n', '<C-j>', '<C-w>j', {noremap = true})
-keymap ('n', '<C-k>', '<C-w>k', {noremap = true})
-keymap ('n', '<C-l>', '<C-w>l', {noremap = true})
+keymap ('n', '<C-Left>', '<C-w>h', {noremap = true})
+keymap ('n', '<C-Down>', '<C-w>j', {noremap = true})
+keymap ('n', '<C-Up>', '<C-w>k', {noremap = true})
+keymap ('n', '<C-Right>', '<C-w>l', {noremap = true})
 
 if g.vscode == nil
 then
