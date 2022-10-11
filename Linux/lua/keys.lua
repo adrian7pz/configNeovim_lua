@@ -14,6 +14,8 @@ keymap ('n', '<M-l>', ':vertical resize +2<CR>', {noremap = true})
 
 -- Alternative way to save changes
 keymap ('n', '<C-s>', ':w<CR>', {noremap = true})
+keymap ('n', 'Z', '<Nop>', {noremap = true})
+keymap ('n', 'ZZ', '<Nop>', {noremap = true})
 
 -- Alternative way to quit without saving
 keymap ('n', '<C-q>', ':q!<CR>', {noremap = true})
