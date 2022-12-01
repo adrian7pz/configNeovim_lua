@@ -18,7 +18,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 
 -- Themes
-Plug ('catppuccin/nvim', {as = 'catppuccin'})
+-- Plug ('catppuccin/nvim', {as = 'catppuccin'})
+Plug 'sainnhe/everforest'
 
 -- Icons
 Plug 'kyazdani42/nvim-web-devicons'

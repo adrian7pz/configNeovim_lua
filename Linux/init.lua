@@ -19,5 +19,9 @@ require ('plug-config/lualine-config')
 require ('plug-config/luatree-config')
 
 -- Theme Activation
-cmd('colorscheme catppuccin')
-g.catppuccin_flavour = 'macchiato' -- latte, frappe, macchiato. mocha
+g.everforest_better_performance = 1
+g.everforest_background = 'hard'
+g.everforest_enable_italic = 1
+g.everforest_ui_contrast = 'high'
+cmd('colorscheme everforest')
+-- g.catppuccin_flavour = 'macchiato' -- latte, frappe, macchiato. mocha
