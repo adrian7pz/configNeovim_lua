@@ -18,8 +18,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 
 -- Themes
--- Plug ('catppuccin/nvim', {as = 'catppuccin'})
-Plug 'sainnhe/everforest'
+Plug ('gruvbox-community/gruvbox')
 
 -- Icons
 Plug 'kyazdani42/nvim-web-devicons'
