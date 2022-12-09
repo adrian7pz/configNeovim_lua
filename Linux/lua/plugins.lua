@@ -18,7 +18,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 
 -- Themes
-Plug ('gruvbox-community/gruvbox')
+Plug ('tomasiser/vim-code-dark')
 
 -- Icons
 Plug 'kyazdani42/nvim-web-devicons'

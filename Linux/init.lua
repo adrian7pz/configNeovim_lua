@@ -19,4 +19,4 @@ require ('plug-config/lualine-config')
 require ('plug-config/luatree-config')
 
 -- Theme Activation
-cmd('colorscheme gruvbox')
+cmd('colorscheme codedark')

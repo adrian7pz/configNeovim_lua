@@ -1,3 +1,5 @@
+#! /usr/bin/sh
+
 cd $HOME/Documents/configNeovim_lua
 git pull
 
