@@ -7,6 +7,7 @@ rmdir /s /q lua\
 
 copy C:\Users\adrian7pz\AppData\Local\nvim\init.lua C:\Users\adrian7pz\Documents\configNeovim_lua\Windows\
 xcopy C:\Users\adrian7pz\AppData\Local\nvim\lua C:\Users\adrian7pz\Documents\configNeovim_lua\Windows\lua\
+xcopy C:\Users\adrian7pz\AppData\Local\nvim\lua\plug-config\ C:\Users\adrian7pz\Documents\configNeovim_lua\Windows\lua\plug-config\
 
 git add --all
 git commit -m "Update Windows"
