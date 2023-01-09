@@ -19,5 +19,4 @@ require ('plug-config/lualine-config')
 require ('plug-config/luatree-config')
 
 -- Theme Activation
-cmd('colorscheme catppuccin')
-g.catppuccin_flavour = 'macchiato' -- latte, frappe, macchiato. mocha
+cmd('colorscheme codedark')
