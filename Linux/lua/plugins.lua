@@ -1,15 +1,11 @@
 local Plug = vim.fn['plug#']
 vim.call('plug#begin', '~/.config/nvim/plugged')
 
--- Airline
--- Plug 'vim-airline/vim-airline'
--- Plug 'vim-airline/vim-airline-themes'
---
--- Lightline
--- Plug 'itchyny/lightline.vim'
-
 -- Lualine
 Plug 'nvim-lualine/lualine.nvim'
+
+-- Lua Bufferline
+Plug ('akinsho/bufferline.nvim', {tag = 'v3.*'})
 
 -- Autopairs
 Plug 'jiangmiao/auto-pairs'
@@ -21,7 +17,7 @@ Plug 'sheerun/vim-polyglot'
 Plug ('tomasiser/vim-code-dark')
 
 -- Icons
-Plug 'kyazdani42/nvim-web-devicons'
+Plug 'nvim-tree/nvim-web-devicons'
 
 -- Intellisense
 Plug ('neoclide/coc.nvim', {branch = 'release'})
@@ -30,7 +26,7 @@ Plug ('neoclide/coc.nvim', {branch = 'release'})
 Plug 'tpope/vim-commentary'
 
 -- File Explorer
-Plug 'kyazdani42/nvim-tree.lua'
+Plug 'nvim-tree/nvim-tree.lua'
 
 -- Prettier (Format Code)
 Plug ('prettier/vim-prettier', {['do'] = 'yarn install'})

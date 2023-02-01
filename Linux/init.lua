@@ -17,6 +17,7 @@ require ('plug-config/commentary')
 require ('plug-config/prettier')
 require ('plug-config/lualine-config')
 require ('plug-config/luatree-config')
+require ('plug-config/bufferline-config')
 
 -- Theme Activation
 cmd('colorscheme codedark')
