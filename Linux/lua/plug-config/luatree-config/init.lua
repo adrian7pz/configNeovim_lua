@@ -1,12 +1,5 @@
 local api = vim.api
-require("nvim-tree").setup{
-
-    -- respect_buf_cwd = true,
-    -- ignore_buffer_on_setup = false,
-    -- open_on_setup = true,
-    -- open_on_setup_file = true,
-
-}
+require("nvim-tree").setup{}
 
 local function open_nvim_tree(data)
 

@@ -3,6 +3,7 @@
 cd $HOME/Documents/configNeovim_lua
 git pull
 
+rm -R $HOME/Documents/configNeovim_lua/Linux/*
 cp $HOME/.config/nvim/init.lua $HOME/Documents/configNeovim_lua/Linux/
 cp -R $HOME/.config/nvim/lua/ $HOME/Documents/configNeovim_lua/Linux/
 cp $HOME/.config/nvim/git_sync.sh $HOME/Documents/configNeovim_lua/Linux/
