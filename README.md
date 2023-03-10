@@ -1,2 +1,2 @@
 # configNeovim
-- Ready to go with neovim cofigured in Lua
+- Ready to go with neovim configured in Lua
