@@ -46,7 +46,6 @@ then
 end
 
 -- Luatree
--- keymap ('n', '<C-n>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
-keymap ('n', '<C-n>', ':NERDTreeToggle<CR>', {noremap = true, silent = true})
--- keymap ('i', '<C-n>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
--- keymap ('v', '<C-n>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
+keymap ('n', '<C-n>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
+keymap ('i', '<C-n>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
+keymap ('v', '<C-n>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})

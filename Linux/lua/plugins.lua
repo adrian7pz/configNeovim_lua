@@ -11,7 +11,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'jiangmiao/auto-pairs'
 
 -- Syntax Support
--- Plug 'sheerun/vim-polyglot'
+Plug 'sheerun/vim-polyglot'
 
 -- Themes
 Plug ('tomasiser/vim-code-dark')
@@ -26,8 +26,7 @@ Plug ('neoclide/coc.nvim', {branch = 'release'})
 Plug 'tpope/vim-commentary'
 
 -- File Explorer
--- Plug 'nvim-tree/nvim-tree.lua' -- This requires Nvim 0.8.0 or higher
-Plug 'preservim/nerdtree'
+Plug 'nvim-tree/nvim-tree.lua' -- This requires Nvim 0.8.0 or higher
 
 -- Prettier (Format Code)
 Plug ('prettier/vim-prettier', {['do'] = 'yarn install'})
