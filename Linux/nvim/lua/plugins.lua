@@ -26,8 +26,8 @@ Plug ('neoclide/coc.nvim', {branch = 'release'})
 Plug 'tpope/vim-commentary'
 
 -- File Explorer
--- Plug 'nvim-tree/nvim-tree.lua' -- This requires Nvim 0.8.0 or higher
-Plug 'preservim/nerdtree'
+Plug 'nvim-tree/nvim-tree.lua' -- This requires Nvim 0.8.0 or higher
+-- Plug 'preservim/nerdtree'
 
 -- Prettier (Format Code)
 Plug ('prettier/vim-prettier', {['do'] = 'yarn install'})
