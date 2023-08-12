@@ -2,10 +2,10 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin', '~/.config/nvim/plugged')
 
 -- Lualine
-Plug 'nvim-lualine/lualine.nvim'
+-- Plug 'nvim-lualine/lualine.nvim'
 
 -- Lua Bufferline
--- Plug ('akinsho/bufferline.nvim', {tag = 'v3.*'}) -- Nvim 0.8.0 or higher
+Plug ('akinsho/bufferline.nvim', {tag = 'v3.*'}) -- Nvim 0.8.0 or higher
 
 -- Autopairs
 Plug 'jiangmiao/auto-pairs'
