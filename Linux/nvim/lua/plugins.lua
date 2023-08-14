@@ -14,7 +14,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 
 -- Themes
-Plug ('tomasiser/vim-code-dark')
+-- Plug ('tomasiser/vim-code-dark')
+Plug ('chriskempson/base16-vim')
 
 -- Icons
 Plug 'nvim-tree/nvim-web-devicons'

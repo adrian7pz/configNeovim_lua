@@ -19,4 +19,4 @@ require ('plug-config/luatree-config')
 require ('plug-config/bufferline-config')
 
 -- Theme Activation
-cmd('colorscheme codedark')
+cmd('colorscheme base16-default-dark')
