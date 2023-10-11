@@ -21,7 +21,7 @@ Plug ('chriskempson/base16-vim')
 Plug 'nvim-tree/nvim-web-devicons'
 
 -- Intellisense
--- Plug ('neoclide/coc.nvim', {branch = 'release'})
+Plug ('neoclide/coc.nvim', {branch = 'release'})
 
 -- Comments
 Plug 'tpope/vim-commentary'

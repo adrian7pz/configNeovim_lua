@@ -11,7 +11,7 @@ require ('keys')
 require ('plugins')
 
 -- Plugin Configs
--- require ('plug-config/coc-config')
+require ('plug-config/coc-config')
 require ('plug-config/commentary')
 require ('plug-config/prettier')
 -- require ('plug-config/lualine-config')
