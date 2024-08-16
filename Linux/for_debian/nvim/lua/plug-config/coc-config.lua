@@ -1,6 +1,8 @@
 -- local variables for replace vim.* commands
 local cmd = vim.cmd
 
+vim.g.coc_disable_startup_warning = 1
+
 -- COC Config
 cmd([[
 "█▀▀ █▀█ █▀▀ ▄▄ █░█ █ █▀▄▀█
