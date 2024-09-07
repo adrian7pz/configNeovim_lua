@@ -14,11 +14,10 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 
 -- Themes
-Plug ('ribru17/bamboo.nvim')
 Plug ('chriskempson/base16-vim')
 
 -- Auto Dark Mode
-Plug ('f-person/auto-dark-mode.nvim')
+-- Plug ('f-person/auto-dark-mode.nvim')
 
 -- Icons
 Plug 'nvim-tree/nvim-web-devicons'
